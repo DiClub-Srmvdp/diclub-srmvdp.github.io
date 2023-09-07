@@ -64,9 +64,7 @@ a:hover{
   color: rgb(230,230,230);
 
 }
-#navBar{
 
-}
 #section1{
   background-image: url('../img/grey.jpg');
   background-size: cover;
@@ -79,9 +77,7 @@ a:hover{
   font-weight: lighter;
   margin-top: -13.5%;
 }
-.centerTextHead{
 
-}
 .mainSlide{
   font-family:hel_head;
   min-height: 100vh;
@@ -374,9 +370,7 @@ animation-duration:2s;
   margin: 0%;
   padding-bottom: -1%;
 }
-#pageFooter h5{
 
-}
 #pageFooter h4 i{
   padding-left: 1.5%;
   margin-bottom: -1.5%;
