@@ -1,3 +1,3 @@
-# ADG-VIT
+# DIClub-SRMVDP
 
-Official website for ADG-VIT
+Official website for DIClub-SRMVDP
