@@ -1,0 +1,33 @@
+body {
+    background-color: #212121;
+    overflow-x: hidden;
+    color: rgb(216, 216, 226);
+}
+
+#DILogo {
+    width: 40px;
+    height: 40px;
+    margin-top: -20%;
+    margin-left: -10%;
+}
+
+.container-fluid {
+    background-color: rgb(11, 11, 11);
+}
+
+#navLinks li a {
+    font-size: 1.12em;
+}
+
+#navLinks li:hover {
+    transition: 0.5s;
+    font-size: 120%;
+    background-color: rgb(75, 75, 77);
+}
+
+#navBar {
+    background-color: black;
+    -webkit-box-shadow: 1px 2px 20px 1px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: 1px 2px 20px 1px rgba(0, 0, 0, 0.29);
+    box-shadow: 1px 2px 20px 1px rgba(0, 0, 0, 0.29);
+}
