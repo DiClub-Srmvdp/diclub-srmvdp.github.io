@@ -3,10 +3,11 @@ body{
     overflow-x: hidden;
     color: rgb(216,216,226);
 }
-#adgLogo{
-  width: 40%;
-  height: auto;
-  margin-top: -10%;
+#DILogo {
+  width: 40px;
+  height: 40px;
+  margin-top: -20%;
+  margin-left: -10%;
 }
 .container-fluid{
   background-color: rgb(11,11,11);

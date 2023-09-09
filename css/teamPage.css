@@ -44,18 +44,15 @@ body{
 
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 
-  word-wrap: break-word;s
+  word-wrap: break-word;
 
 }
 
-#adgLogo{
-
-  width: 40%;
-
-  height: auto;
-
-  margin-top: -10%;
-
+#DILogo {
+  width: 40px;
+  height: 40px;
+  margin-top: -20%;
+  margin-left: -10%;
 }
 
 .container-fluid{
