@@ -85,7 +85,6 @@ body{
 #lineBreak{
   width:100%;
 }
-
 #pageFooterMain{
   background-color: #c7c7c7;
 }
@@ -93,12 +92,6 @@ body{
   text-align: center;
   color: #000000;
 }
-#pageFooter h2{
-
-}
 #pageFooter h4 i{
   padding-left: 2%;
-}
-#pageFooter h4{
-
 }

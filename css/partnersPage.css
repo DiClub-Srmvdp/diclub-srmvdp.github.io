@@ -25,40 +25,117 @@ body{
   -moz-box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.29);
   box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.29);
 }
-.container{
-  width: 100%;
-  margin: 0;
-}
-#delDesign{
-  position: fixed;
-  background-color: rgb(129,129,129);
-  min-height: 60vh;
-  width: 4%;
-}
-#wasteSpace{
-  min-height: 56vh;
-}
-.modal-dialog{
-  position:relative;
 
-  top:40%;
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
-#delDesign{
-  position: fixed;
-  background-color: rgb(129,129,129);
-  min-height: 64vh;
-  width: 4%;
+
+.left-image img {
+  margin-right: 0px;
 }
-#delta{
-  width:100%;
+
+.right-image img {
+  margin-left: 0px;
 }
-#modalImage1{
-  width:100%;
+
+.container {
+  padding: 2rem;
+  padding: bottom 400px;
+  margin: 0 auto;
+  max-width: 800px;
 }
-#mainModal{
+
+.top-section {
   text-align: center;
-  padding: 1.5%;
+  padding: 4rem 0;
+  max-width: 600px;
+  margin: 0 auto;
 }
-#iphoneFrame{
-  background: url('img/del.png');
+
+.timeline {
+  position: relative;
+  min-height: 150px;
+}
+
+.line {
+  position: absolute;
+  z-index: 2;
+  left: calc(50% - 1px);
+  width: 2px;
+  top: -50px;
+  bottom: -50px;
+  background-color: #000;
+  display: none;
+}
+
+.line:before,
+.line:after {
+  position: absolute;
+  display: block;
+  content: '';
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background-color: #000;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.line:after {
+  bottom: -0%;
+}
+
+.section {
+  display: flex;
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: 600ms ease;
+  position: relative;
+  z-index: 1;
+  margin: 50px 0;
+  padding: 1rem;
+  border-radius: 1rem;
+  align-items: center;
+  min-height: 300px;
+}
+
+.section:nth-child(odd) {
+  flex-direction: row-reverse;
+  transform: translateX(100%);
+}
+
+.bead {
+  position: absolute;
+  display: block;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background-color: #000;
+  left: 50%;
+  top: 20%;
+  transform: translateX(-50%);
+}
+
+.content {
+  width: calc(50% - 2rem);
+}
+
+.show-me:nth-child(even) {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+.show-me:nth-child(odd) {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+.show-me:nth-child(even) .bead {
+  right: 0%;
+}
+
+.show-me:nth-child(odd) .bead {
+  right: 0%;
 }
