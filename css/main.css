@@ -116,11 +116,9 @@ a:hover {
 #diEvents {
   background-color: rgb(236, 236, 236);
   text-align: center;
-
 }
 
 #diTeam {
-  margin-left: -0.4%;
   background-color: rgb(246, 246, 246);
   background-image: url('../img/board_poster.jpg');
   background-size: cover;
@@ -293,17 +291,12 @@ a:hover {
 .main-text {
   position: absolute;
   top: 35%;
-
   width: 96.66666666666666%;
-  /*color: #FFF;*/
 }
 
 .main-text a {
   /*color: white;*/
   font-weight: lighter;
-
-
-  /*color: #FFF;*/
 }
 
 .main-text h2 a {
