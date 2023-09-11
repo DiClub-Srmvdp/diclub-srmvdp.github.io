@@ -1,9 +1,10 @@
 #overlay{
   height: 100vh;
-  background-image: url('../img/adggif.gif');
+  background-image: url('C:\Users\athee\OneDrive\Documents\GitHub\DIClub-Website\img\digif.gif');
   background-size: 7vw;
   background-repeat: no-repeat;
   background-position: center;
   background-color: rgba(18,18,18,0.0);
   z-index: -4;
 }
+  
