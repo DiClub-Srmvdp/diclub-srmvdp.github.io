@@ -44,15 +44,16 @@ a:hover {
 }
 
 #DILogo {
-  width: 40px;
-  height: 40px;
-  margin-top: -20%;
+  width: 90px;
+  height: 90px;
+  margin-top: -10%;
   margin-left: -10%;
 }
 
 #navBar {
   background: rgba(235, 235, 235, 0.0);
   border-color: transparent;
+  height: 90px;
   /*-webkit-box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.29);
   -moz-box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.29);
   box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.21);*/
@@ -60,7 +61,8 @@ a:hover {
 
 #navLinks li a {
   color: rgb(255, 255, 255);
-  font-size: 120%;
+  font-size: 150%;
+  margin-right: -10%;
 }
 
 #navLinks li:hover {
