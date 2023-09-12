@@ -79,6 +79,10 @@ body {
     text-align: center;
 }
 
+.left-button {
+    margin-top: 20px;
+}
+
 .right-box {
     height: 100%;
     width: 50%;
@@ -98,12 +102,28 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 55%;
 }
 
-img {
-    width: 70%;
+.project-image img {
+    width: 75%;
 }
 
 .project-content {
     text-align: center;
+    height: 45%;
+    margin-top: 10px;
+}
+
+.project-link {
+    height: 5%;
+    font-size: 2.1em;
+}
+
+.project-link:hover {
+    text-decoration: none;
+}
+
+.project-content p {
+    height: 95%;
 }

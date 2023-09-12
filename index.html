@@ -71,28 +71,26 @@
       </div>
     </nav>
 
-
-
-    <!-- =================== HOMEPAGE CONTAINER DIV ============== -->
-
-    <div class="container">
-
-      <!-- ======= SECTION 1 - ADG image gallery ========== ---->
-
-      <div id="section1" class="row">
-        <div class="col-xs-12">
-          <div class="mainSlide">
-            <div id="mainHeadText" class="centerTextHead">
-              <h1 id="mainCreate">Inspire. Design. Innovate.</h1>
-              <h2>Design & Innovation Club</h2>
-            </div>
-            <div class="arrow animated bounce">
-              <a id="anchor1" href="#section2"><img width="40" height="40" alt="" src="img/arrow.png" />
-              </a>
-            </div>
+    <div id="section1" class="row">
+      <div class="col-xs-12">
+        <div class="mainSlide">
+          <div id="mainHeadText" class="centerTextHead">
+            <h1 id="mainCreate">Inspire. Design. Innovate.</h1>
+            <h2>Design & Innovation Club</h2>
+          </div>
+          <div class="arrow animated bounce">
+            <a id="anchor1" href="#section2"><img width="40" height="40" alt="" src="img/arrow.png" />
+            </a>
           </div>
         </div>
       </div>
+    </div>
+
+    <!-- =================== HOMEPAGE CONTAINER DIV ============== -->
+
+    <div class="content">
+
+      <!-- ======= SECTION 1 - ADG image gallery ========== ---->
 
       <!-- ======= SECTION 2 - Know about ADG ========== -->
 
@@ -153,8 +151,6 @@
 
 
       </div>
-
-
 
       <div id="section2a" class="row">
         <div class="col-md-6 col-xs-12 hidden-xs " id="diProjects">
@@ -253,60 +249,8 @@
       </div>
 
       <!-- ======= SECTION 3 - Teams in ADG ========== -->
-      <div id="TeamsSlide">
-        <div id="aboutADG" class="row">
-          <div class="col-md-12">
-            <script src="flipdown.js"></script>
-            <h1>HACKFEST'23</h1>
-            <style>
-              p {
-                text-align: center;
-                font-size: 60px;
-                margin-top: 0px;
-              }
-              </style>
-              </head>
-              <body>
-              
-              <p id="demo"></p>
-              
-              <script>
-              // Set the date we're counting down to
-              var countDownDate = new Date("Sep 13, 2023 08:00:25").getTime();
-              
-              // Update the count down every 1 second
-              var x = setInterval(function() {
-              
-                // Get today's date and time
-                var now = new Date().getTime();
-                  
-                // Find the distance between now and the count down date
-                var distance = countDownDate - now;
-                  
-                // Time calculations for days, hours, minutes and seconds
-                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-                  
-                // Output the result in an element with id="demo"
-                document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-                + minutes + "m " + seconds + "s ";
-                  
-                // If the count down is over, write some text 
-                if (distance < 0) {
-                  clearInterval(x);
-                  document.getElementById("demo").innerHTML = "EXPIRED";
-                }
-              }, 1000);
-              </script>
-            <h1 style="font-weight: 450; margin: 0;">ABOUT US</h1>
-            <h4 style="font-weight: lighter;">We bring out the developer in you.
-              Become not only someone who deploys apps, but also builds the world Brick by Brick.
-            </h4>
-          </div>
-        </div>
-        <!-- <div id="aboutTeams" class="row">
+
+      <!-- <div id="aboutTeams" class="row">
         <div class="col-md-3 col-xs-6 col-sm-6">
           <div class="animated touchBounce">
             <img id="iosLogo" src="img/ios_logo.png" alt="IOS DEV">
@@ -338,63 +282,89 @@
       </div>
       </div>-->
 
-        <!-- ======= SECTION 4 - Contact ADG ========== -->
+      <!-- ======= SECTION 4 - Contact ADG ========== -->
 
-<!----->        <div class="row" id="contactADG">
-          <h1><b>Let's get to know each other</b></h1>
-          <h4>FEEL FREE TO CONTACT US</h4>
-        </div>
-        <div class="row" id="contactUs">
-          <div id="formLeft" class="col-sm-offset-2 col-sm-4 col-xs-12">
-            <div id="formName" class="row">
-              <div class="col-xs-12">
-                <input id="formInput" class="form-control" type="text" placeholder="Your Name"
-                  onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your name'" />
-              </div>
-            </div>
-            <div id="formName" class="row">
-              <div class="col-xs-12">
-                <input id="formInput" class="form-control" type="text" placeholder="Your E-Mail"
-                  onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your E-mail'" />
-              </div>
-            </div>
-            <div id="formName" class="row">
-              <div class="col-xs-12">
-                <input id="formInput" class="form-control" type="long" placeholder="Your Mobile"
-                  onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your mobile'" />
-              </div>
+      <!--
+      <div class="row" id="contactADG">
+        <h1><b>Let's get to know each other</b></h1>
+        <h4>FEEL FREE TO CONTACT US</h4>
+      </div>
+      <div class="row" id="contactUs">
+        <div id="formLeft" class="col-sm-offset-2 col-sm-4 col-xs-12">
+          <div id="formName" class="row">
+            <div class="col-xs-12">
+              <input id="formInput" class="form-control" type="text" placeholder="Your Name"
+                onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your name'" />
             </div>
           </div>
-          <div class="col-sm-4 col-xs-12">
-            <div id="formName" class="row">
-              <div class="col-xs-12">
-                <input id="formRight" class="form-control" type="text" placeholder="Your Message"
-                  onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your message'" />
-              </div>
-              <button id="submitButton" type="submit" class="btn" onclick="myAlertBox()"> SUBMIT </button>
+          <div id="formName" class="row">
+            <div class="col-xs-12">
+              <input id="formInput" class="form-control" type="text" placeholder="Your E-Mail"
+                onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your E-mail'" />
+            </div>
+          </div>
+          <div id="formName" class="row">
+            <div class="col-xs-12">
+              <input id="formInput" class="form-control" type="long" placeholder="Your Mobile"
+                onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your mobile'" />
             </div>
           </div>
         </div>
-
-        <!-- ======= SECTION 5 - Credits And Copyrights ========== -->
-
-        <div id="pageFooterMain" class="row">
-          <div id="pageFooter" class="col-xs-12">
-            <h5>Copyright 2023 Design & Innovation Club</h5>
-            <h4>
-              <a style="color: black;" href="https://www.facebook.com/search/top?q=di%20club"><i
-                  class="fa fa-facebook animated touchBounce"></i></a><span class="h4">/</span><span
-                class="h5 animated touchBounce">diclub </span>
-              <a style="color: black;" href="https://www.linkedin.com/company/diclub/"><i
-                  class="fa fa-linkedin animated touchBounce"></i></a><span class="h4">/</span><span
-                class="h5 animated touchBounce">diclub </span>
-              <a style="color: black;" href="https://www.instagram.com/diclub.srmvdp/"><i
-                  class="fa fa-instagram animated touchBounce"></i></a><span class="h4">/</span><span
-                class="h5 animated touchBounce">diclub </span>
-            </h4>
+        <div class="col-sm-4 col-xs-12">
+          <div id="formName" class="row">
+            <div class="col-xs-12">
+              <input id="formRight" class="form-control" type="text" placeholder="Your Message"
+                onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your message'" />
+            </div>
+            <button id="submitButton" type="submit" class="btn" onclick="myAlertBox()"> SUBMIT </button>
           </div>
         </div>
+      </div>
+      -->
 
+      <!-- ======= SECTION 5 - Credits And Copyrights ========== -->
+
+    </div>
+
+    <div id="TeamsSlide">
+      <div id="aboutADG" class="">
+        <div class="timer">
+          <script src="flipdown.js"></script>
+          <h1 class="Timerhead" style="font-size: 4.5rem;">HACKFEST'23</h1>
+          <style>
+            p {
+              text-align: center;
+              font-size: 60px;
+              margin-top: 0px;
+            }
+          </style>
+          <img class="Timerimg" src="img/hackfest.png" style="width: 500px;">
+          <p id="demo"></p>
+        </div>
+
+        <div class="aboutus-content">
+          <h1 style="font-weight: 450; margin: 0;">ABOUT US</h1>
+          <h4 style="font-weight: lighter;">We bring out the developer in you.
+            Become not only someone who deploys apps, but also builds the world Brick by Brick.
+          </h4>
+        </div>
+      </div>
+    </div>
+
+    <div id="pageFooterMain" class="">
+      <div id="pageFooter" class="">
+        <h5>Copyright 2023 Design & Innovation Club</h5>
+        <h4>
+          <a style="color: black;" href="https://www.facebook.com/search/top?q=di%20club"><i
+              class="fa fa-facebook animated touchBounce"></i></a><span class="h4">/</span><span
+            class="h5 animated touchBounce">diclub </span>
+          <a style="color: black;" href="https://www.linkedin.com/company/diclub/"><i
+              class="fa fa-linkedin animated touchBounce"></i></a><span class="h4">/</span><span
+            class="h5 animated touchBounce">diclub </span>
+          <a style="color: black;" href="https://www.instagram.com/diclub.srmvdp/"><i
+              class="fa fa-instagram animated touchBounce"></i></a><span class="h4">/</span><span
+            class="h5 animated touchBounce">diclub </span>
+        </h4>
       </div>
     </div>
 
@@ -508,6 +478,35 @@
         }, 500);
         return false;
       });
+
+      // Set the date we're counting down to
+      var countDownDate = new Date("Sep 13, 2023 08:00:25").getTime();
+
+      // Update the count down every 1 second
+      var x = setInterval(function () {
+
+        // Get today's date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Output the result in an element with id="demo"
+        document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+          + minutes + "m " + seconds + "s ";
+
+        // If the count down is over, write some text 
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo").innerHTML = "EXPIRED";
+        }
+      }, 1000);
     </script>
     <!-- ===== WEBSITE DEVELOPED BY - ATHEEQ RAHMAN (RA2011003040069) ====== -->
 </body>
