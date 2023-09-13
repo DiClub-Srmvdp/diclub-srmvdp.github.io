@@ -156,9 +156,12 @@ body{
 }*/
 
 .boardMemberPic{
-
+  filter: grayscale(90%);
   width: 100%;
+}
 
+.teacherpic {
+  filter: grayscale(0%);
 }
 
 .memberInfo{
