@@ -162,13 +162,10 @@ body{
 }
 
 .memberInfo{
-
-  margin-top: 4%;
-
-
-
-  margin-bottom: 4%;
-
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1{
@@ -210,21 +207,9 @@ h1{
 
 }
 
-#pageFooter h2{
-
-
-
-}
-
 #pageFooter h4 i{
 
   padding-left: 2%;
-
-}
-
-#pageFooter h4{
-
-
 
 }
 
